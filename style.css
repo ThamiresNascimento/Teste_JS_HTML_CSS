@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #864127, #b4683d);
+}
+
+#screen-register{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(238, 140, 95);
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.button{
+    background-color: #b05b3b;
+    padding: 10px;
+    border-radius: 15px;
+    width: 230px;
+}
+
+button:hover{
+    background-color: #753422;
+}
+
+.forgot-password{
+    color: burlywood;
+    top: 100px;
+    left: 15px;
+}
